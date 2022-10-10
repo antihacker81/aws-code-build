@@ -5,20 +5,23 @@ phases:
   install:
     commands:
       - echo command
-      finally:
+    finally:
       - echo command-finally
   pre_build:
     commands:
       - echo pre_build
-      finally:
+    finally:
       - echo pre_build-finally
   build:
     commands:
       - echo build
-      finally:
+    finally:
       - echo build-finally
   post_build:
     commands:
       - echo post_build
-      finally:
-      - echo post_build-finally      
+    finally:
+      - echo post_build-finally  
+artifacts:
+  files:
+    - '**/*'      
