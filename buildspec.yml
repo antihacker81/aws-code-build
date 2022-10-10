@@ -24,4 +24,5 @@ phases:
       - echo post_build-finally  
 artifacts:
   files:
-    - '**/*'      
+    - '**/*'
+    - imageDetail.json
