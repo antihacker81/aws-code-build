@@ -1,0 +1,6 @@
+[
+  {
+    "name": "node-app",
+    "imageUri": "184800632431.dkr.ecr.us-east-1.amazonaws.com/node-app"
+  }
+]
